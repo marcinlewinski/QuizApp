@@ -23,7 +23,7 @@ services:
     depends_on:
       - mongodb
     environment:
-      - MONGODB_URI=mongodb+srv://codecool:CodeCool2023@cluster0.mxvalai.mongodb.net/quizzappdb
+      - MONGODB_URI=mongodb+srv://*:*@cluster0.mxvalai.mongodb.net/quizzappdb
     volumes: 
       - ./server/:/src/app
       - /src/node_modules
@@ -36,8 +36,8 @@ services:
     volumes:
       - mongo-data:/data/db
     environment:
-      - MONGO_USERNAME=codecool
-      - MONGO_PASSWORD=CodeCool2023
+      - MONGO_USERNAME=*
+      - MONGO_PASSWORD=*
 networks: 
   mern-app: 
     driver: bridge
