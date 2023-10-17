@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PureModal from "react-pure-modal";
 import "./ChangePassword.css";
 import { useLoggedUser } from "../../App";
-import validationMethods from "../../validationMethods"
+import validationMethods from "../../validationMethods";
 
 export default function ChangePasswordFrom() {
   const [prevPassword, setPrevPassword] = useState("");
@@ -14,14 +14,14 @@ export default function ChangePasswordFrom() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-  
+
     const newPasswordError = validationMethods.validatePassword(newPassword);
     if (newPasswordError) {
       setModalContent(newPasswordError);
       setModalVisible(true);
       return;
     }
-  
+
     if (newPassword !== confirmNewPassword) {
       setModalContent("Passwords do not match!");
       setModalVisible(true);
@@ -42,7 +42,7 @@ export default function ChangePasswordFrom() {
     setModalContent("");
   };
 
-  async function savePassword( newPassword, prevPassword) {
+  async function savePassword(newPassword, prevPassword) {
     return await fetch("http://localhost:8080/password", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
