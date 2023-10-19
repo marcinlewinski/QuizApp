@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Science Quiz",
+    "questions": [
+      {
+        "question": "What is the chemical symbol for water?",
+        "answers": [
+          { "answer": "H2O", "isCorrect": true },
+          { "answer": "CO2", "isCorrect": false },
+          { "answer": "O2", "isCorrect": false },
+          { "answer": "N2", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Who formulated the theory of relativity?",
+        "answers": [
+          { "answer": "Albert Einstein", "isCorrect": true },
+          { "answer": "Isaac Newton", "isCorrect": false },
+          { "answer": "Galileo Galilei", "isCorrect": false },
+          { "answer": "Nikola Tesla", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the powerhouse of the cell?",
+        "answers": [
+          { "answer": "Mitochondria", "isCorrect": true },
+          { "answer": "Nucleus", "isCorrect": false },
+          { "answer": "Ribosome", "isCorrect": false },
+          { "answer": "Endoplasmic Reticulum", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

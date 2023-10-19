@@ -186,7 +186,7 @@ app.post("/feedback", async (req, res) => {
 
 
 mongoose
-	.connect(dbURI)
+	.connect("mongodb://mongodb:27017/quizz")
 	.then(() => {
 		console.log("Connected to Database!")
 	})
