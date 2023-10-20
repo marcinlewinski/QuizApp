@@ -30,5 +30,389 @@
         ]
       }
     ]
-  }
+  }, 
+    {
+      "title": "Geography Quiz",
+      "questions": [
+        {
+          "question": "What is the capital of France?",
+          "answers": [
+            { "answer": "Paris", "isCorrect": true },
+            { "answer": "Berlin", "isCorrect": false },
+            { "answer": "Madrid", "isCorrect": false },
+            { "answer": "Rome", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which continent is Egypt in?",
+          "answers": [
+            { "answer": "Asia", "isCorrect": false },
+            { "answer": "Europe", "isCorrect": false },
+            { "answer": "Africa", "isCorrect": true },
+            { "answer": "South America", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which ocean is the largest?",
+          "answers": [
+            { "answer": "Pacific Ocean", "isCorrect": true },
+            { "answer": "Atlantic Ocean", "isCorrect": false },
+            { "answer": "Indian Ocean", "isCorrect": false },
+            { "answer": "Arctic Ocean", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "History Quiz",
+      "questions": [
+        {
+          "question": "Who was the first President of the United States?",
+          "answers": [
+            { "answer": "George Washington", "isCorrect": true },
+            { "answer": "Thomas Jefferson", "isCorrect": false },
+            { "answer": "Abraham Lincoln", "isCorrect": false },
+            { "answer": "John Adams", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "When did World War II end?",
+          "answers": [
+            { "answer": "1942", "isCorrect": false },
+            { "answer": "1945", "isCorrect": true },
+            { "answer": "1939", "isCorrect": false },
+            { "answer": "1950", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Who wrote 'The Art of War'?",
+          "answers": [
+            { "answer": "Plato", "isCorrect": false },
+            { "answer": "Sun Tzu", "isCorrect": true },
+            { "answer": "William Shakespeare", "isCorrect": false },
+            { "answer": "Leonardo da Vinci", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Music Quiz",
+      "questions": [
+        {
+          "question": "Who composed the Four Seasons?",
+          "answers": [
+            { "answer": "Antonio Vivaldi", "isCorrect": true },
+            { "answer": "Johann Sebastian Bach", "isCorrect": false },
+            { "answer": "Wolfgang Amadeus Mozart", "isCorrect": false },
+            { "answer": "Ludwig van Beethoven", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is the main genre of Metallica?",
+          "answers": [
+            { "answer": "Pop", "isCorrect": false },
+            { "answer": "Country", "isCorrect": false },
+            { "answer": "Heavy Metal", "isCorrect": true },
+            { "answer": "Rap", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which instrument is primarily associated with Jazz?",
+          "answers": [
+            { "answer": "Saxophone", "isCorrect": true },
+            { "answer": "Violin", "isCorrect": false },
+            { "answer": "Flute", "isCorrect": false },
+            { "answer": "Drums", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tech Quiz",
+      "questions": [
+        {
+          "question": "What does CPU stand for?",
+          "answers": [
+            { "answer": "Central Processing Unit", "isCorrect": true },
+            { "answer": "Computerized Power Unit", "isCorrect": false },
+            { "answer": "Compact Personal Utility", "isCorrect": false },
+            { "answer": "Centralized Power Unit", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What language does Node.js use?",
+          "answers": [
+            { "answer": "Python", "isCorrect": false },
+            { "answer": "JavaScript", "isCorrect": true },
+            { "answer": "Java", "isCorrect": false },
+            { "answer": "C++", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which company originally developed the Android operating system?",
+          "answers": [
+            { "answer": "Microsoft", "isCorrect": false },
+            { "answer": "Apple", "isCorrect": false },
+            { "answer": "Android Inc.", "isCorrect": true },
+            { "answer": "Samsung", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Literature Quiz",
+      "questions": [
+        {
+          "question": "Who is the author of '1984'?",
+          "answers": [
+            { "answer": "George Orwell", "isCorrect": true },
+            { "answer": "Aldous Huxley", "isCorrect": false },
+            { "answer": "F. Scott Fitzgerald", "isCorrect": false },
+            { "answer": "Ernest Hemingway", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which Shakespeare play features the character Iago?",
+          "answers": [
+            { "answer": "Macbeth", "isCorrect": false },
+            { "answer": "Othello", "isCorrect": true },
+            { "answer": "Romeo and Juliet", "isCorrect": false },
+            { "answer": "Hamlet", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Who wrote 'To Kill a Mockingbird'?",
+          "answers": [
+            { "answer": "Harper Lee", "isCorrect": true },
+            { "answer": "Mark Twain", "isCorrect": false },
+            { "answer": "Jane Austen", "isCorrect": false },
+            { "answer": "J.K. Rowling", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cinema Quiz",
+      "questions": [
+        {
+          "question": "Which movie won the Academy Award for Best Picture in 1994?",
+          "answers": [
+            { "answer": "Pulp Fiction", "isCorrect": false },
+            { "answer": "Forrest Gump", "isCorrect": true },
+            { "answer": "The Shawshank Redemption", "isCorrect": false },
+            { "answer": "Jurassic Park", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Who played the role of Jack Dawson in 'Titanic'?",
+          "answers": [
+            { "answer": "Brad Pitt", "isCorrect": false },
+            { "answer": "Leonardo DiCaprio", "isCorrect": true },
+            { "answer": "Tom Cruise", "isCorrect": false },
+            { "answer": "Johnny Depp", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "In which movie series would you find the character Frodo Baggins?",
+          "answers": [
+            { "answer": "Harry Potter", "isCorrect": false },
+            { "answer": "The Chronicles of Narnia", "isCorrect": false },
+            { "answer": "The Lord of the Rings", "isCorrect": true },
+            { "answer": "Star Wars", "isCorrect": false }
+          ]
+        }
+      ]
+    }, 
+    {
+      "title": "Literature Quiz",
+      "questions": [
+        {
+          "question": "Who is the author of '1984'?",
+          "answers": [
+            { "answer": "George Orwell", "isCorrect": true },
+            { "answer": "Aldous Huxley", "isCorrect": false },
+            { "answer": "F. Scott Fitzgerald", "isCorrect": false },
+            { "answer": "Ernest Hemingway", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which Shakespeare play features the character Iago?",
+          "answers": [
+            { "answer": "Macbeth", "isCorrect": false },
+            { "answer": "Othello", "isCorrect": true },
+            { "answer": "Romeo and Juliet", "isCorrect": false },
+            { "answer": "Hamlet", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Who wrote 'To Kill a Mockingbird'?",
+          "answers": [
+            { "answer": "Harper Lee", "isCorrect": true },
+            { "answer": "Mark Twain", "isCorrect": false },
+            { "answer": "Jane Austen", "isCorrect": false },
+            { "answer": "J.K. Rowling", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cinema Quiz",
+      "questions": [
+        {
+          "question": "Which movie won the Academy Award for Best Picture in 1994?",
+          "answers": [
+            { "answer": "Pulp Fiction", "isCorrect": false },
+            { "answer": "Forrest Gump", "isCorrect": true },
+            { "answer": "The Shawshank Redemption", "isCorrect": false },
+            { "answer": "Jurassic Park", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Who played the role of Jack Dawson in 'Titanic'?",
+          "answers": [
+            { "answer": "Brad Pitt", "isCorrect": false },
+            { "answer": "Leonardo DiCaprio", "isCorrect": true },
+            { "answer": "Tom Cruise", "isCorrect": false },
+            { "answer": "Johnny Depp", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "In which movie series would you find the character Frodo Baggins?",
+          "answers": [
+            { "answer": "Harry Potter", "isCorrect": false },
+            { "answer": "The Chronicles of Narnia", "isCorrect": false },
+            { "answer": "The Lord of the Rings", "isCorrect": true },
+            { "answer": "Star Wars", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Food and Beverage Quiz",
+      "questions": [
+        {
+          "question": "What is the main ingredient in traditional Japanese sushi?",
+          "answers": [
+            { "answer": "Rice", "isCorrect": true },
+            { "answer": "Fish", "isCorrect": false },
+            { "answer": "Seaweed", "isCorrect": false },
+            { "answer": "Soy Sauce", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which fruit is known as the 'king of fruits'?",
+          "answers": [
+            { "answer": "Apple", "isCorrect": false },
+            { "answer": "Durian", "isCorrect": true },
+            { "answer": "Banana", "isCorrect": false },
+            { "answer": "Grapes", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which type of pasta is shaped like small rice grains?",
+          "answers": [
+            { "answer": "Orzo", "isCorrect": true },
+            { "answer": "Penne", "isCorrect": false },
+            { "answer": "Spaghetti", "isCorrect": false },
+            { "answer": "Macaroni", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Animals Quiz",
+      "questions": [
+        {
+          "question": "Which animal is known for its elaborate courtship dance?",
+          "answers": [
+            { "answer": "Peacock", "isCorrect": true },
+            { "answer": "Elephant", "isCorrect": false },
+            { "answer": "Dolphin", "isCorrect": false },
+            { "answer": "Tiger", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which animal has the longest lifespan?",
+          "answers": [
+            { "answer": "Tortoise", "isCorrect": true },
+            { "answer": "Elephant", "isCorrect": false },
+            { "answer": "Whale", "isCorrect": false },
+            { "answer": "Parrot", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is the largest species of shark?",
+          "answers": [
+            { "answer": "Great White Shark", "isCorrect": false },
+            { "answer": "Tiger Shark", "isCorrect": false },
+            { "answer": "Whale Shark", "isCorrect": true },
+            { "answer": "Hammerhead Shark", "isCorrect": false }
+          ]
+        }
+      ]
+    }, 
+    {
+      "title": "Art and Artists Quiz",
+      "questions": [
+        {
+          "question": "Who painted the Mona Lisa?",
+          "answers": [
+            { "answer": "Leonardo da Vinci", "isCorrect": true },
+            { "answer": "Michelangelo", "isCorrect": false },
+            { "answer": "Vincent van Gogh", "isCorrect": false },
+            { "answer": "Pablo Picasso", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "Which art movement is Salvador Dalí associated with?",
+          "answers": [
+            { "answer": "Surrealism", "isCorrect": true },
+            { "answer": "Impressionism", "isCorrect": false },
+            { "answer": "Cubism", "isCorrect": false },
+            { "answer": "Baroque", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is the primary subject of Andy Warhol's art?",
+          "answers": [
+            { "answer": "Pop Culture", "isCorrect": true },
+            { "answer": "Nature", "isCorrect": false },
+            { "answer": "Religious Themes", "isCorrect": false },
+            { "answer": "Portraits", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Automobile Quiz",
+      "questions": [
+        {
+          "question": "Which car brand has a logo that features four interlocked rings?",
+          "answers": [
+            { "answer": "Audi", "isCorrect": true },
+            { "answer": "BMW", "isCorrect": false },
+            { "answer": "Mercedes-Benz", "isCorrect": false },
+            { "answer": "Volkswagen", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What type of fuel do traditional hybrid vehicles use?",
+          "answers": [
+            { "answer": "Gasoline", "isCorrect": true },
+            { "answer": "Electricity", "isCorrect": false },
+            { "answer": "Diesel", "isCorrect": false },
+            { "answer": "Hydrogen", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "In which country did the automobile brand 'Toyota' originate?",
+          "answers": [
+            { "answer": "Japan", "isCorrect": true },
+            { "answer": "Germany", "isCorrect": false },
+            { "answer": "United States", "isCorrect": false },
+            { "answer": "South Korea", "isCorrect": false }
+          ]
+        }
+      ]
+    }
 ]
