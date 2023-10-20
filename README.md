@@ -1,5 +1,6 @@
 # QuizzApp
 ![](/client/public/resolve.gif)
+
 ## 🌟 Project aim
 
 The aim of this project is to create a user-friendly web application that enables users to take quizzes and contribute their own quiz content. Our goal is to provide an engaging and interactive platform for learning and knowledge-sharing, fostering a community of quiz enthusiasts. Whether you want to challenge your knowledge or share your expertise, our app makes it easy and enjoyable.
@@ -10,6 +11,7 @@ The aim of this project is to create a user-friendly web application that enable
 - [To do](#-to-do)
 - [Features](#-features)
 - [Project status](#-project-status)
+- [Setup](#-setup)
 - [Technologies](#%EF%B8%8F-technologies--tools)
 - [License](#-license)
 
@@ -43,6 +45,16 @@ Mentors: Adrian Widłak, Katarzyna Mrawczyńska
 This project is considered complete and stable, and all planned features have been implemented. While we will address any critical issues that arise.
 
 Thank you for your interest in this project. We hope that you find it useful. Please feel free to fork this repository and use it as a starting point for your own project, or to learn from the code.
+
+## 🌐 Setup
+
+To run the application on a Windows operating system, use the file `startQuizApp_Windows.bat`
+
+For macOS or Linux, run `startQuizApp_macOS.sh`
+
+Alternatively, you can run the Docker Desktop application and in the terminal, enter the command `docker-compose up --build.`
+
+When the application starts, open your web browser and type the following URL in the address bar: "http://localhost:3000".
 
 ## 🛠️ Technologies & Tools
 
