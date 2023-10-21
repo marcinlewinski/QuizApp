@@ -48,13 +48,23 @@ Thank you for your interest in this project. We hope that you find it useful. Pl
 
 ## 🌐 Setup
 
-To run the application on a Windows operating system, use the file `startQuizApp_Windows.bat`
+To run the application, follow these steps:
+1. **Clone the Repository**: Clone the project repository to your computer by running the command:
 
-For macOS or Linux, run `startQuizApp_macOS.sh`
+    ```bash
+    git clone https://github.com/marcinlewinski/QuizzApp.git
+    ```
+3. **Run Docker Compose**: Start the Docker Desktop application, and then enter the following command in the terminal:
 
-Alternatively, you can run the Docker Desktop application and in the terminal, enter the command `docker-compose up --build`
+    ```bash
+    docker-compose up --build
+    ```
 
-When the application starts, open your web browser and type the following URL in the address bar: "http://localhost:3000"
+Alternatively, you can run the application using the following scripts:
+1. For macOS or Linux, execute `startQuizApp_macOS.sh` (You need to make it executable by running `chmod +x startQuizApp_macOS.sh` in your terminal).
+2. For Windows, run `startQuizApp_Windows.ps1` (double click it).
+ 
+Once the application starts, open your web browser and enter the following URL in the address bar: "http://localhost:3000"
 
 ## 🛠️ Technologies & Tools
 
