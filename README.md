@@ -1,5 +1,5 @@
 # QuizzApp
-![](/client/public/resolve.gif)
+<img src="/client/public/resolve.gif" alt="Gif" width="100%">
 
 ## 🌟 Project aim
 
