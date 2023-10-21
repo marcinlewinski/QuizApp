@@ -52,9 +52,9 @@ To run the application on a Windows operating system, use the file `startQuizApp
 
 For macOS or Linux, run `startQuizApp_macOS.sh`
 
-Alternatively, you can run the Docker Desktop application and in the terminal, enter the command `docker-compose up --build.`
+Alternatively, you can run the Docker Desktop application and in the terminal, enter the command `docker-compose up --build`
 
-When the application starts, open your web browser and type the following URL in the address bar: "http://localhost:3000".
+When the application starts, open your web browser and type the following URL in the address bar: "http://localhost:3000"
 
 ## 🛠️ Technologies & Tools
 
