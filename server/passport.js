@@ -2,13 +2,14 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const mongoose = require("mongoose");
 const Account = require('./models/account');
 const passport = require('passport');
-const {GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET} = require('./googleAuth');
+
 passport.use(new GoogleStrategy({
-    clientID: GOOGLE_CLIENT_ID,
-    clientSecret: GOOGLE_CLIENT_SECRET,
+    clientID: process.env.NODE_ENV_GOOGLE_CLIENT_ID,
+    clientSecret: process.env.NODE_ENV_GOOGLE_CLIENT_SECRET,
     callbackURL: "/auth/google/callback",
     passReqToCallback: true
   },
+  
   async function(req, accessToken, refreshToken, email, cb) {
     try {
       const userEmail = email.emails[0].value;
