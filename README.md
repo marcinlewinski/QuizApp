@@ -54,6 +54,16 @@ To run the application, follow these steps:
     ```bash
     git clone https://github.com/marcinlewinski/QuizzApp.git
     ```
+
+2. **Add your .env file**: Create a file named `.env` at the root of the project and add the following content:
+
+    ```env
+    NODE_ENV_GOOGLE_CLIENT_ID=YOUR_CLIENT_ID
+    NODE_ENV_GOOGLE_CLIENT_SECRET=YOUR_CLIENT_SECRET
+    ```
+
+    Replace `YOUR_CLIENT_ID` and `YOUR_CLIENT_SECRET` with your actual Google OAuth credentials.
+
 3. **Run Docker Compose**: Start the Docker Desktop application, and then enter the following command in the terminal:
 
     ```bash
@@ -65,6 +75,7 @@ Alternatively, you can run the application using the following scripts:
 2. For Windows, run `startQuizApp_Windows.ps1` (double click it).
  
 Once the application starts, open your web browser and enter the following URL in the address bar: "http://localhost:3000"
+Now, you are ready to run the application with the configured environment. Enjoy using the Quiz App!
 
 ## 🛠️ Technologies & Tools
 
