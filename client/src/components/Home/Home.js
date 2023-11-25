@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Home.css";
-import img from "./home.png";
+import img from "./home.jpg";
 import { useLoggedUser } from "../../App";
 
 export default function Home({ goToQuizes, openLogInModal }) {
