@@ -3,7 +3,9 @@
 
 ## 🌟 Project aim
 
-The aim of this project is to create a user-friendly web application that enables users to take quizzes and contribute their own quiz content. Our goal is to provide an engaging and interactive platform for learning and knowledge-sharing, fostering a community of quiz enthusiasts. Whether you want to challenge your knowledge or share your expertise, our app makes it easy and enjoyable.
+This project was one of the first that initiated our learning of advanced web technologies. It incorporates many aspects that, with the benefit of hindsight, we now realize should have been done differently. Nevertheless, we have chosen to leave this project in its original form. We decided not to perform a code refactor so as to showcase our progress over time, which you can observe in the rest of our projects.
+
+The primary aim of this project was to create a user-friendly web application that enables users to take quizzes and contribute their own quiz content. Our goal was to provide an engaging and interactive platform for learning and knowledge-sharing, fostering a community of quiz enthusiasts. Whether you want to challenge your knowledge or share your expertise, our app makes it easy and enjoyable.
 
 ## 📖 Table of contents
 
@@ -26,6 +28,7 @@ Mentors: Adrian Widłak, Katarzyna Mrawczyńska
 
 ## 📝 To do
 
+- Code refactor
 - Application deployment
 - End to end tests
 - Implement CI/CD
@@ -33,18 +36,20 @@ Mentors: Adrian Widłak, Katarzyna Mrawczyńska
 
 ## ✨ Features
 
-- User can add his own quizz
-- User can solve a variety of quizzes
-- User can see his scoreboard
-- User can log via Google Aouth 2.0
-- Non relational DB is used to store app data
-- Application is responsive
+- Users can create their own quizzes.
+- Users can participate in various quizzes.
+- The system allows users to track their performance in each completed quiz.
+- Authentication is facilitated through Google OAuth 2.0.
+- The application is responsive and accessible.
+- It utilizes a non-relational database for efficient data management.
 
 ## 🟢 Project status
 
-This project is considered complete and stable, and all planned features have been implemented. While we will address any critical issues that arise.
+This project is considered complete and stable, and all planned features have been implemented.
 
 Thank you for your interest in this project. We hope that you find it useful. Please feel free to fork this repository and use it as a starting point for your own project, or to learn from the code.
+
+If you want to see a live version, at the top of the readme.md, a GIF with our application should load. Alternatively, if you prefer, you can go to the tab below (Setup) and run the application locally on your machine.
 
 ## 🌐 Setup
 
