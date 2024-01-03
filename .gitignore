@@ -2,3 +2,4 @@
 server/mongodbkey.js
 server/googleAuth.js
 .env
+./server/.env

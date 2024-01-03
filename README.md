@@ -1,11 +1,13 @@
 # QuizzApp
-<img src="/client/public/resolve.gif" alt="Gif" width="100%">
+<img src="/app_demo.gif" alt="demo gif" width="100%">
+
+<img src="app.png" alt="application png" width="100%">
 
 ## 🌟 Project aim
 
 This project was one of the first that initiated our learning of advanced web technologies. It incorporates many aspects that, with the benefit of hindsight, we now realize should have been done differently. Nevertheless, we have chosen to leave this project in its original form. We decided not to perform a code refactor so as to showcase our progress over time, which you can observe in the rest of our projects.
 
-The primary aim of this project was to create a user-friendly web application that enables users to take quizzes and contribute their own quiz content. Our goal was to provide an engaging and interactive platform for learning and knowledge-sharing, fostering a community of quiz enthusiasts. Whether you want to challenge your knowledge or share your expertise, our app makes it easy and enjoyable.
+The primary aim of this project was to create a user-friendly web application that enables users to take quizzes and contribute their own quiz content.
 
 ## 📖 Table of contents
 
@@ -60,7 +62,7 @@ To run the application, follow these steps:
     git clone https://github.com/marcinlewinski/QuizzApp.git
     ```
 
-2. **Add your .env file**: Create a file named `.env` at the root of the project and add the following content:
+2. **Add your .env file**: Create a file named `.env` at the /server file and add the following content:
 
     ```env
     NODE_ENV_GOOGLE_CLIENT_ID=YOUR_CLIENT_ID
@@ -72,7 +74,7 @@ To run the application, follow these steps:
 3. **Run Docker Compose**: Start the Docker Desktop application, and then enter the following command in the terminal:
 
     ```bash
-    docker-compose up --build
+    docker-compose up 
     ```
 
 Alternatively, you can run the application using the following scripts:
@@ -103,4 +105,4 @@ Project is created with:
 
 ## 📜 License
 
-QuizzApp is MIT licensed.
+QuizzApp is [MIT](https://choosealicense.com/licenses/mit/) licensed.

@@ -46,7 +46,6 @@ function QuizModal(props) {
 
     const progress = [...Array(quiz.questions.length).keys()];
     const maxPoints = progress.length
-    console.log(progress.length)
 
     function handleNextQuestion() {
         setTimeLeft(10);

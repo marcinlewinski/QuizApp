@@ -16,14 +16,11 @@ function Quizzes(props) {
         }
         const data = await response.json()
         setQuizzes(data)
-        console.log(data)
     }
 
     useEffect(() => {
         getQuizzes()
     }, [])
-
-    console.log(quizzes)
 
     function chooseQuiz(quiz) { 
         setSelectedQuiz(quiz);
@@ -43,7 +40,7 @@ function Quizzes(props) {
     return (
         <div className='button-container'>
             {quizzesVisible && quizzes && quizzes.map((quiz, index) => (
-                <button onClick={() => chooseQuiz(quiz)} key={index}>{quiz.title}</button>
+                <button className='button_container_single_quizz' onClick={() => chooseQuiz(quiz)} key={index}>{quiz.title}</button>
             ))}
 
             {selestedQuiz && (

@@ -43,6 +43,7 @@ function Score(props) {
       throw Error('Response is not Ok!');
     }
     closeSummary(false);
+    setConfettiActive(false);
   };
 
   return (
