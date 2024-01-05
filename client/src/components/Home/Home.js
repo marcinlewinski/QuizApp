@@ -5,9 +5,7 @@ import { useLoggedUser } from "../../App";
 
 export default function Home({ goToQuizes, openLogInModal }) {
   const { loggedUser } = useLoggedUser();
-  console.log(loggedUser?.toString()?.length);
-  console.log("dw")
-  // console.log(!loggedUser);
+
   return (
     <div className="Home">
       <div>
@@ -19,7 +17,7 @@ export default function Home({ goToQuizes, openLogInModal }) {
       </div>
       {loggedUser ? (
         <button className="HomeButton" onClick={goToQuizes}>
-          Start solving!!!
+          Start solving
         </button>
       ) : (
         <button className="HomeButton" onClick={openLogInModal}>
