@@ -59,7 +59,7 @@ To run the application, follow these steps:
 1. **Clone the Repository**: Clone the project repository to your computer by running the command:
 
     ```bash
-    git clone https://github.com/marcinlewinski/QuizzApp.git
+    git clone https://github.com/marcinlewinski/QuizApp.git
     ```
 
 2. **Add your .env file**: Create a file named `.env` at the /server file and add the following content:
