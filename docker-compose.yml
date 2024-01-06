@@ -1,0 +1,59 @@
+version: "3"
+services:
+  react-app:
+    image: react-app
+    build: ./client/
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    networks:
+      - mern-app
+    volumes:
+      - ./client/:/src/app
+      - /src/node_modules
+    depends_on:
+      - react-server
+  react-server:
+    image: react-server
+    build: ./server/
+    ports:
+      - "8080:8080"
+    networks:
+      - mern-app
+    depends_on:
+      - mongodb
+    volumes:
+      - ./server/:/src/app
+      - /src/node_modules
+  mongodb:
+    image: mongo:latest
+    environment:
+      - USER=user 
+      - PASSWORD=password
+    ports:
+      - "27017:27017"
+    networks:
+      - mern-app
+    volumes:
+      - mongo-data:/data
+  data-importer:
+    build: ./data/
+    environment:
+      - MONGO_PORT=27017
+      - MONGO_HOST=mongodb
+      - JSON_FILE=data/sample-data.json
+    volumes:
+      - ./data:/data
+    depends_on:
+      - mongodb
+    command: ["sh", "./data.sh"]
+    networks:
+      - mern-app
+
+networks:
+  mern-app:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local
